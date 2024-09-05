@@ -10,7 +10,7 @@ FROM mhart/alpine-node:10
 
 RUN unset NPM_CONFIG_USER && npm config set unsafe-perm true
 
-ENV LOCAL_URL="http://localhost:3300" \
+ENV LOCAL_URL="/" \
     LOCAL_PATH="/usr/src/app/temp" \
     ADAPTOR_PATH="../adaptors/" \
     MANIFEST_URL="http://relm.realeyes.com/video/" \
